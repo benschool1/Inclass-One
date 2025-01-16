@@ -77,7 +77,7 @@ class Deck:
     def deal(self):
         if self.counter < 52:
             result = self.deck[self.counter]
-            self.counter += 2
+            self.counter += 1
             return result
 
     # Randomly shuffles the deck array seven times.
