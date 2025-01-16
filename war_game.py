@@ -69,7 +69,7 @@ class Deck:
         for the_face in face:
             for the_suit in suit:
                 self.deck.append(Card(the_face, the_suit))
-        for i in range(7):
+        for i in range(8):
             random.shuffle(self.deck)
 
     # Returns the top card of the deck if it exists (if we have not previously dealt 52 cards)
