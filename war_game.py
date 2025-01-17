@@ -131,7 +131,7 @@ class War_Game:
         if num_players < 2:
             num_players = 2
         elif num_players > 8:
-            num_players = 8
+            num_players = 3
         for i in range(num_players):
             name = "Player %d" % (i+1)
             self.players.append(War_Player(name))
